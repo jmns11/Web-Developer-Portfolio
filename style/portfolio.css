@@ -1,0 +1,165 @@
+
+
+.work-sans-normal {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+/* nav style */
+.dark2{
+color: #474747;
+
+
+}
+.secondary-bg{
+  background-color: #FFF8F3;
+}
+  nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin:30px 110px;
+}
+.banner{
+ display:flex;
+ justify-content: space-between;
+ margin: 0 35px 0 200px ;
+
+}
+.btn-pri{
+  background-color: #fd6e0a;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  padding: 13px 27px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 30px;
+}
+.section-title{
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+}
+.section-des{
+  font-size: 18px;
+  color: #757575;
+}
+.header{
+
+  background-image: url('../images/developer.png'), url('../images/header_bg.png');
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+} 
+.banner-grit{
+ font-size: 45px;
+ font-weight: 600;
+
+margin-top: 0%;
+}
+.banner-title
+{
+  font-size: 45px;
+  font-weight: bold;
+}
+.text-pri{color: rgb(255, 149, 1);}
+
+.nav-title{
+  font-weight: 800;
+  font-size: 45px;
+}
+nav ul li{
+  list-style: none;
+  margin-right: 50px;
+}
+nav li a {
+  text-decoration: none;
+  font-size: 20px;
+  
+}
+nav ul {
+  display: flex;
+}
+.about{
+  border-radius: 10px;
+  padding: 130px 150px;
+
+}
+main{
+  max-width: 1140px;
+  margin: 0  auto;
+  text-align: center;
+}
+.item-des{
+  font-weight: 600;
+}
+.about-items{
+  display: flex;
+  justify-content: space-around;
+}
+.skills-container{
+  display: flex;
+  gap: 24px;
+  ;
+}
+.skill{
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 6px 15px 0px rgb(218, 216, 216);
+
+}
+.resume{
+  text-align: left;
+}
+.resume-container{
+  display: flex;
+  gap: 24px;
+  text-align: left;
+
+}
+.experience-description ,.experience-subtitle{
+  color: #757575;
+
+}
+.experience-subtitle{
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.resume-download-cv{
+  margin-top: 50px;
+  align-items: center;
+}
+.text-center{
+  text-align: center;
+}
+.footer{
+ display: flex;
+ padding: 70px 120px;
+ gap: 100px;
+
+}
+.footer-column{
+ 
+  width: 50%;
+}
+footer input  {
+  height: 50px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: white;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+}
+textarea{
+  width: 100%;
+  border-radius: 5px;
+  background-color: white;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+  border: none;
+}
+
+
+  
